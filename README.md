@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ ashiba GENERATOR_NAME PROJECT_NAME
+
+### Examples
+
+#### Sinatra
+
+    $ ashiba sinatra mysite
 
 ## Development
 

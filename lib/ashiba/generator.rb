@@ -1,0 +1,1 @@
+require "ashiba/generator/sinatra"
