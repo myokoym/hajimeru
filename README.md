@@ -1,5 +1,7 @@
 # Ashiba
 
+[![Gem Version](https://badge.fury.io/rb/ashiba.svg)](http://badge.fury.io/rb/ashiba)
+
 A scaffold generator for your project.
 
 ## Installation
