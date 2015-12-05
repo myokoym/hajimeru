@@ -1,0 +1,2 @@
+<%= config[:plugin_name] %>_la_SOURCES =				\
+	<%= config[:plugin_name] %>.c

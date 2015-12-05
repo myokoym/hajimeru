@@ -1,0 +1,14 @@
+AM_CFLAGS =					\
+	$(GROONGA_CFLAGS)
+
+AM_LDFLAGS =					\
+	-avoid-version				\
+	-module					\
+	-no-undefined
+
+LIBS =						\
+	$(GROONGA_LIBS)
+
+<%= config[:plugin_name] %>_plugins_LTLIBRARIES = <%= config[:plugin_name] %>.la
+
+include sources.am
