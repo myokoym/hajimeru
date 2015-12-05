@@ -1,6 +1,6 @@
 require "thor"
 
-module Ashiba
+module Hajimeru
   module Generator
     class GroongaPlugin < Thor::Group
       include Thor::Actions

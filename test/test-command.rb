@@ -1,10 +1,10 @@
 require "stringio"
-require "ashiba/command"
-require "ashiba/version"
+require "hajimeru/command"
+require "hajimeru/version"
 
 class CommandTest < Test::Unit::TestCase
   def setup
-    @command = Ashiba::Command.new
+    @command = Hajimeru::Command.new
     @stdout_string = ""
     @stderr_string = ""
     stdout_io = StringIO.new(@stdout_string)
@@ -21,7 +21,7 @@ class CommandTest < Test::Unit::TestCase
   def test_version
     @command.version
     assert_equal(<<-END_OF_FILE, @stdout_string)
-#{Ashiba::VERSION}
+#{Hajimeru::VERSION}
     END_OF_FILE
   end
 end

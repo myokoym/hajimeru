@@ -1,26 +1,26 @@
-# Ashiba
+# Hajimeru
 
-[![Gem Version](https://badge.fury.io/rb/ashiba.svg)](http://badge.fury.io/rb/ashiba)
+[![Gem Version](https://badge.fury.io/rb/hajimeru.svg)](http://badge.fury.io/rb/hajimeru)
 
 A scaffold generator for your project.
 
 ## Installation
 
-    $ gem install ashiba
+    $ gem install hajimeru
 
 ## Usage
 
-    $ ashiba GENERATOR_NAME PROJECT_NAME
+    $ hajimeru GENERATOR_NAME PROJECT_NAME
 
 ### Examples
 
 #### [Groonga](http://groonga.org/) plugin
 
-    $ ashiba groonga_plugin name
+    $ hajimeru groonga_plugin name
 
 #### Sinatra
 
-    $ ashiba sinatra mysite
+    $ hajimeru sinatra mysite
 
 ## Development
 
@@ -30,5 +30,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/myokoym/ashiba.
+Bug reports and pull requests are welcome on GitHub at https://github.com/myokoym/hajimeru.
 

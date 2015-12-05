@@ -1,18 +1,19 @@
 require "thor"
 
-module Ashiba
+module Hajimeru
   module Generator
-    class JavaScript < Thor::Group
+    class Sinatra < Thor::Group
       include Thor::Actions
 
       argument :name
 
       def self.source_root
-        File.join(File.dirname(__FILE__), "templates", "javascript")
+        File.join(File.dirname(__FILE__), "templates", "sinatra")
       end
 
       def create_files
         [
+          "views/layout.haml",
         ].each do |path|
           template("#{path}.tt", "#{name}/#{path}")
         end
@@ -20,8 +21,10 @@ module Ashiba
 
       def copy_files
         [
-          "index.html",
-          "index.js",
+          "views/index.haml",
+          "app.rb",
+          "config.ru",
+          "Gemfile",
         ].each do |path|
           copy_file(path, "#{name}/#{path}")
         end
