@@ -19,6 +19,11 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.post_install_message = <<-MESSAGE
+  !    The 'ashiba' gem has been deprecated and has been replaced by 'hajimeru' gem.
+  !    Because the name 'ashiba' is used in the other project.
+  MESSAGE
+
   spec.add_runtime_dependency "thor"
 
   spec.add_development_dependency "bundler", "~> 1.10"
