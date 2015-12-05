@@ -14,6 +14,10 @@ A scaffold generator for your project.
 
 ### Examples
 
+#### [Groonga](http://groonga.org/) plugin
+
+    $ ashiba groonga_plugin name
+
 #### Sinatra
 
     $ ashiba sinatra mysite
