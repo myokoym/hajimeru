@@ -45,7 +45,7 @@ AC_SUBST(GROONGA_PLUGINS_DIR)
 AC_SUBST(GROONGA)
 AC_SUBST(GROONGA_HTTPD)
 
-<%= config[:plugin_name] %>_pluginsdir="<%= config[:plugin_name] %>"
+<%= config[:plugin_name] %>_pluginsdir="\${GROONGA_PLUGINS_DIR}/<%= config[:plugin_name] %>"
 AC_SUBST(<%= config[:plugin_name] %>_pluginsdir)
 
 AC_CONFIG_FILES([
