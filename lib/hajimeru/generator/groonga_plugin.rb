@@ -21,6 +21,7 @@ module Hajimeru
         }
         [
           ".gitignore",
+          "LICENSE",
           "Makefile.am.tt",
           "autogen.sh",
           "configure.ac.tt",
