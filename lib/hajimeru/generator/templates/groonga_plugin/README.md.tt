@@ -19,7 +19,7 @@ $ ./configure
 $ make
 ```
 
-Groonga is installed in other directory (e.g.: `/usr/local`):
+Groonga is installed in other directory (e.g.: `/tmp/local`):
 
 ```sh
 $ ./configure --prefix=/tmp/local
