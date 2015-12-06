@@ -28,6 +28,8 @@ $ make
 
 ## Test
 
+Using [grntest](https://github.com/groonga/grntest).
+
 ```sh
 $ test/run-test.sh
 ```
