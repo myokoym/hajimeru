@@ -20,6 +20,7 @@ module Hajimeru
           email: (git_user_email || "TODO: YOUR EMAIL"),
         }
         [
+          ".gitignore",
           "Makefile.am.tt",
           "autogen.sh",
           "configure.ac.tt",
