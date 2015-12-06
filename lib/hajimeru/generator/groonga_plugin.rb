@@ -23,6 +23,7 @@ module Hajimeru
           ".gitignore",
           "LICENSE",
           "Makefile.am.tt",
+          "README.md.tt",
           "autogen.sh",
           "configure.ac.tt",
           "plugin_name/Makefile.am.tt",

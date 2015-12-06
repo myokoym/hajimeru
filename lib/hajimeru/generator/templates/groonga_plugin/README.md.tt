@@ -1,0 +1,23 @@
+# groonga-plugin-<%= config[:plugin_name] %>
+
+TODO: Write description.
+
+## Install
+
+Groonga is installed in `/usr/local`:
+
+```sh
+$ ./autogen.sh
+$ ./configure
+$ make
+$ sudo make install
+```
+
+Groonga is installed in other directory (e.g.: `/usr/local`):
+
+```sh
+$ ./autogen.sh
+$ ./configure --prefix=/tmp/local
+$ make
+$ make install
+```
