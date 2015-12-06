@@ -35,9 +35,9 @@ module Hajimeru
         ].each do |path|
           output_path = path.gsub(/plugin_name/, config[:plugin_name])
           output_path = output_path.gsub(/\.tt\z/, "")
-          template(path, "#{name}/#{output_path}", config)
+          template(path, "groonga-plugin-#{name}/#{output_path}", config)
           if /\.sh\z/ =~ output_path
-            File.chmod(0755, "#{name}/#{output_path}")
+            File.chmod(0755, "groonga-plugin-#{name}/#{output_path}")
           end
         end
       end

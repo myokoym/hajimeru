@@ -1,5 +1,5 @@
 AC_PREREQ(2.59)
-AC_INIT([groonga-<%= config[:plugin_name] %>], 0.0.1, [<%= config[:email] %>])
+AC_INIT([groonga-plugin-<%= config[:plugin_name] %>], 0.0.1, [<%= config[:email] %>])
 
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([<%= config[:plugin_name] %>/<%= config[:plugin_name] %>.c])
