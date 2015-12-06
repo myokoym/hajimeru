@@ -2,23 +2,47 @@
 
 TODO: Write description.
 
-## Install
+## Prepare
+
+```sh
+$ git clone git@github.com:[USERNAME]/groonga-plugin-<%= config[:plugin_name] %>.git
+$ cd groonga-plugin-<%= config[:plugin_name] %>
+$ ./autogen.sh
+```
+
+## Build
 
 Groonga is installed in `/usr/local`:
 
 ```sh
-$ ./autogen.sh
 $ ./configure
 $ make
-$ sudo make install
 ```
 
 Groonga is installed in other directory (e.g.: `/usr/local`):
 
 ```sh
-$ ./autogen.sh
 $ ./configure --prefix=/tmp/local
 $ make
+```
+
+## Test
+
+```sh
+$ test/run-test.sh
+```
+
+## Install
+
+For system directory (e.g.: `/usr/local`):
+
+```sh
+$ sudo make install
+```
+
+For user directory (e.g.: `/tmp/local`):
+
+```sh
 $ make install
 ```
 
