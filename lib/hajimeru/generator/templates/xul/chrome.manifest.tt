@@ -1,0 +1,5 @@
+content <%= name %> content/
+locale <%= name %> en-US locale/en-US/
+locale <%= name %> ja locale/ja/
+
+component {<%= config[:uuid] %>} components/Startup.js

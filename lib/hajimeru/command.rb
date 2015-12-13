@@ -8,6 +8,7 @@ module Hajimeru
     register(Generator::GroongaPlugin, "groonga_plugin", "groonga_plugin PLUGIN_NAME", "Scaffold the Groonga plugin")
     register(Generator::JavaScript, "javascript", "javascript PROJECT_NAME", "Scaffold the JavaScript project")
     register(Generator::Sinatra, "sinatra", "sinatra PROJECT_NAME", "Scaffold the Sinatra project")
+    register(Generator::Xul, "xul", "xul ADDON_NAME", "Scaffold the XUL add-on")
 
     desc "version", "Show version"
     def version
