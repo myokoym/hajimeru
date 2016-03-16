@@ -14,6 +14,7 @@ module Hajimeru
       def create_files
         [
           "views/layout.haml",
+          "LICENSE.txt",
           "README.md",
         ].each do |path|
           template("#{path}.tt", "#{name}/#{path}")
