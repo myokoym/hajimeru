@@ -1,0 +1,9 @@
+# <%= name %>
+
+Your [Sinatra][] application is here!
+
+[Sinatra]: http://www.sinatrarb.com/
+
+## Usage
+
+TODO
