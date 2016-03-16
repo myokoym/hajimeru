@@ -1,3 +1,14 @@
 source "https://rubygems.org"
 
 gem "sinatra"
+gem "sinatra-asset-pipeline"
+
+gem "uglifier"
+gem "haml"
+
+gem "sprockets-babel"
+
+source "https://rails-assets.org" do
+  gem "rails-assets-jquery"
+  gem "rails-assets-bootstrap"
+end
