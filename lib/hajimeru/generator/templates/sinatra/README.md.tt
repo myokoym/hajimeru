@@ -7,3 +7,11 @@ Your [Sinatra][] application is here!
 ## Usage
 
 TODO
+
+## Links
+
+* [Sinatra: README](http://www.sinatrarb.com/intro.html)
+* [ES6](http://es6-features.org/)
+* [Babel](https://babeljs.io/)
+* [sprockets-babel](https://github.com/70mainstreet/sprockets-babel)
+* [rails-assets-sinatra](https://github.com/rails-assets/rails-assets-sinatra)
