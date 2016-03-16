@@ -23,6 +23,7 @@ module Hajimeru
         [
           "assets/js/application.js.es6",
           "views/index.haml",
+          "public/.gitkeep",
           "app.rb",
           "config.ru",
           "Gemfile",
