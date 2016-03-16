@@ -1,9 +1,14 @@
 require "sinatra/base"
+require "sinatra/reloader"
 
 # temporary solution against Encoding::InvalidByteSequenceError for passenger
 Encoding.default_external = "UTF-8"
 
 class App < Sinatra::Base
+  configure :development do
+    register Sinatra::Reloader
+  end
+
   configure do
     set :assets_precompile, %w(application.js)
     set :assets_js_compressor, :uglifier
