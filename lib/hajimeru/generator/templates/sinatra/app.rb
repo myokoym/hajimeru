@@ -1,5 +1,6 @@
 require "sinatra/base"
 require "sinatra/reloader"
+require "sinatra/asset_pipeline"
 
 # temporary solution against Encoding::InvalidByteSequenceError for passenger
 Encoding.default_external = "UTF-8"
