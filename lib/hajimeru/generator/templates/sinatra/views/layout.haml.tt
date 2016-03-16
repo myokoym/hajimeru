@@ -2,5 +2,6 @@
 %html
   %head
     %title <%= name %>
+    = javascript_tag "application"
   %body
     = yield

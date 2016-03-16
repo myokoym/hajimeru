@@ -21,6 +21,7 @@ module Hajimeru
 
       def copy_files
         [
+          "assets/js/application.js.es6",
           "views/index.haml",
           "app.rb",
           "config.ru",
