@@ -1,4 +1,4 @@
-Copyright (c) <%= Time.now.year %> YOUR NAME
+Copyright (c) <%= Time.now.year %> <%= config[:author] %> <<%= config[:email] %>>
 
 MIT License
 
