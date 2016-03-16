@@ -1,4 +1,4 @@
-Bundler.require
+require "sinatra/base"
 
 # temporary solution against Encoding::InvalidByteSequenceError for passenger
 Encoding.default_external = "UTF-8"
