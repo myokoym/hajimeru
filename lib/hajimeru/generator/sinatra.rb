@@ -26,6 +26,7 @@ module Hajimeru
           "app.rb",
           "config.ru",
           "Gemfile",
+          "Rakefile",
         ].each do |path|
           copy_file(path, "#{name}/#{path}")
         end
